@@ -12,6 +12,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("reflect"))
+    implementation("org.reflections:reflections:0.9.12")
 
     testImplementation(kotlin("test"))
 }
