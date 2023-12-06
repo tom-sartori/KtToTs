@@ -1,4 +1,4 @@
-package org.kttots.ts
+package org.kttots.generator
 
 import org.kttots.internal.SampleDto
 import kotlin.test.Test

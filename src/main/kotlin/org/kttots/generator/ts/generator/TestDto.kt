@@ -1,4 +1,4 @@
-package org.kttots.ts.classs.generator
+package org.kttots.generator.ts.generator
 
 import java.util.*
 import kotlin.properties.Delegates

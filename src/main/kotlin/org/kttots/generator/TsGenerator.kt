@@ -1,6 +1,6 @@
-package org.kttots.ts
+package org.kttots.generator
 
-import org.kttots.ts.classs.generator.TsClassGenerator
+import org.kttots.generator.ts.generator.TsClassGenerator
 import kotlin.reflect.KClass
 
 internal class TsGenerator {

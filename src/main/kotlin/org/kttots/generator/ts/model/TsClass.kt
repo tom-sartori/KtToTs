@@ -1,4 +1,4 @@
-package org.kttots.ts.classs.model
+package org.kttots.generator.ts.model
 
 internal class TsClass(
     private val name: String,

@@ -1,8 +1,8 @@
-package org.kttots.ts.classs.generator
+package org.kttots.generator.ts.generator
 
-import org.kttots.ts.classs.model.TsClass
-import org.kttots.ts.classs.model.TsConstructor
-import org.kttots.ts.classs.model.TsConstructorField
+import org.kttots.generator.ts.model.TsClass
+import org.kttots.generator.ts.model.TsConstructor
+import org.kttots.generator.ts.model.TsConstructorField
 import kotlin.reflect.KClass
 import kotlin.reflect.KProperty
 import kotlin.reflect.full.memberProperties
