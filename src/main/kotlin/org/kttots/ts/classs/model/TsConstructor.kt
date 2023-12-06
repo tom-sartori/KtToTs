@@ -1,6 +1,6 @@
 package org.kttots.ts.classs.model
 
-class TsConstructor(
+internal class TsConstructor(
     private val fields: List<TsConstructorField>
 ) {
 

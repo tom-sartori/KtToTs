@@ -1,6 +1,6 @@
 package org.kttots.ts.classs.model
 
-class TsClass(
+internal class TsClass(
     private val name: String,
     private val constructor: TsConstructor
 ) {

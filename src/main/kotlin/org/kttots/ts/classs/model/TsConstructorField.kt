@@ -1,6 +1,6 @@
 package org.kttots.ts.classs.model
 
-class TsConstructorField(
+internal class TsConstructorField(
     private val name: String,
     private val type: String,
     private val privacy: String = "public"

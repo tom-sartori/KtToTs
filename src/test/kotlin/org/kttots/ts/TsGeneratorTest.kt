@@ -1,8 +1,8 @@
 package org.kttots.ts
 
-import SampleDto
-import org.junit.jupiter.api.Assertions.assertEquals
-import org.junit.jupiter.api.Test
+import org.kttots.internal.SampleDto
+import kotlin.test.Test
+import kotlin.test.assertEquals
 
 class TsGeneratorTest {
 
@@ -10,7 +10,7 @@ class TsGeneratorTest {
     fun `should generate class with constructor`() {
         val generator = TsGenerator()
         val expected = """
-            export class SampleDto {
+            export class org.kttots.internal.SampleDto {
                 constructor(
                     public name: string,
                     public description: Date,
