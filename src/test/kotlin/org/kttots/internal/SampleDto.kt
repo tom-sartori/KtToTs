@@ -3,8 +3,6 @@ package org.kttots.internal
 import java.util.*
 import kotlin.properties.Delegates
 
-internal annotation class FindMe
-
 @FindMe
 internal class SampleDto {
     lateinit var name: String
