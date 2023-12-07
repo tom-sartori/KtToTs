@@ -4,6 +4,7 @@ import org.kttots.internal.FindMe
 import org.kttots.internal.SampleDto
 import java.io.File
 import kotlin.test.Test
+import kotlin.test.assertSame
 
 internal class ClassFinderTest {
 
@@ -18,6 +19,6 @@ internal class ClassFinderTest {
 
         val expectedSet = finder.getAnnotatedClasses(annotation.qualifiedName!!)
 
-        kotlin.test.assertSame(expectedSet.first(), SampleDto::class)
+        assertSame(expectedSet.first(), SampleDto::class)
     }
 }

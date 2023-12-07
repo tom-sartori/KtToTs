@@ -10,7 +10,7 @@ class TsGeneratorTest {
     fun `should generate class with constructor`() {
         val generator = TsGenerator()
         val expected = """
-            export class org.kttots.internal.SampleDto {
+            export class SampleDto {
                 constructor(
                     public name: string,
                     public description: Date,
